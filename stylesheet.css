@@ -9,14 +9,34 @@
 
 
 body {
-    background-image: url("297352-296664-682747-sanju-poster11.jpg");
+  text-align: center;
+  background-image: url("297352-296664-682747-sanju-poster11.jpg");
 }
 
 h1 {
     font-family: 'crackregular';
-    font-size: 10rem;
+    font-size: 8rem;
     text-align: center;
     color: darkblue;
+}
+
+h2{
+  font-family: 'Antonio', sans-serif;
+}
+
+p{
+  font-family: 'Shippori Mincho', serif;
+}
+
+.link_pad{
+  padding-left: 10px;
+}
+.contact{
+  width: 31px;
+}
+
+.contact:hover{
+  width: 30px;
 }
 
 .center {
@@ -27,9 +47,7 @@ h1 {
 }
 
 .headerfont {
-    text-align: center;
     font-weight: bold;
     font-family: 'Verdana';
     margin: 0;
 }
-    
